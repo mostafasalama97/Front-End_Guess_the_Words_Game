@@ -1,0 +1,67 @@
+/* PracticeScreen.css */
+
+.practice-screen {
+    text-align: center;
+  }
+  
+  .word-container {
+    margin-top: 20px;
+  }
+  
+  .pos-button {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pos-button.selected {
+    background-color: #ff9800;
+  }
+  
+  .pos-button:disabled {
+    background-color: #808080;
+    cursor: not-allowed;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff0000;
+  }
+  
+  div {
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #808080;
+    cursor: not-allowed;
+  }
+  

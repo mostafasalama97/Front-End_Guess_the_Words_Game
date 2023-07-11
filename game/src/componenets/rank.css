@@ -1,0 +1,63 @@
+/* RankScreen.css */
+
+.rank-screen {
+    text-align: center;
+  }
+  
+  .progress-container {
+    width: 100%;
+    background-color: #f3f3f3;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #3d5afe;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+  }
+  
+  .completion-message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #3d5afe;
+  }
+  
+  .try-again-button {
+    background-color: #5c6ac4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .try-again-button:hover {
+    background-color: #3d5afe;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .progress-container {
+      height: 10px;
+    }
+  
+    .progress-bar {
+      border-radius: 5px;
+    }
+  
+    .completion-message {
+      font-size: 16px;
+    }
+  }
+  
